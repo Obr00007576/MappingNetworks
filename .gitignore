@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+
+# pytorch
+*.pth
+*.pt
+
+# datasets
+data/
+
+# vscode
+.vscode/
+
+# jupyter
+.ipynb_checkpoints/
+
+# system
+.DS_Store
