@@ -14,6 +14,22 @@ The experiments mainly investigate:
 
 ---
 
+## Experimental Setup
+
+All experiments in this project were conducted on the MNIST handwritten digit classification dataset.
+
+The task is standard image classification on handwritten digits (0–9), and all reported accuracies correspond to classification performance on the MNIST training and test sets.
+
+Each experiment was repeated 5 times to compute:
+
+* mean training accuracy,
+* standard deviation of training accuracy,
+* mean test accuracy,
+* and standard deviation of test accuracy.
+
+All models were trained for 100 epochs under the same training configuration for fair comparison.
+
+
 ### Influence of `z_dim`
 
 ![z\_dim experiments](./z_dim_results.jpg)
